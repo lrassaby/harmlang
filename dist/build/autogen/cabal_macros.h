@@ -21,6 +21,13 @@
   (major1) == 3 && (major2) <  1 || \
   (major1) == 3 && (major2) == 1 && (minor) <= 7)
 
+/* package syb-0.4.2 */
+#define VERSION_syb "0.4.2"
+#define MIN_VERSION_syb(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  4 || \
+  (major1) == 0 && (major2) == 4 && (minor) <= 2)
+
 /* package template-haskell-2.9.0.0 */
 #define VERSION_template_haskell "2.9.0.0"
 #define MIN_VERSION_template_haskell(major1,major2,minor) (\
