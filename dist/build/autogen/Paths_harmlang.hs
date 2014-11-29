@@ -17,11 +17,11 @@ version :: Version
 version = Version {versionBranch = [0,1,0,1], versionTags = []}
 bindir, libdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/h/ccousi01/.cabal/bin"
-libdir     = "/h/ccousi01/.cabal/lib/x86_64-linux-ghc-7.8.3/harmlang-0.1.0.1"
-datadir    = "/h/ccousi01/.cabal/share/x86_64-linux-ghc-7.8.3/harmlang-0.1.0.1"
-libexecdir = "/h/ccousi01/.cabal/libexec"
-sysconfdir = "/h/ccousi01/.cabal/etc"
+bindir     = "/Users/louisrassaby/Library/Haskell/bin"
+libdir     = "/Users/louisrassaby/Library/Haskell/ghc-7.8.3-x86_64/lib/harmlang-0.1.0.1"
+datadir    = "/Users/louisrassaby/Library/Haskell/share/ghc-7.8.3-x86_64/harmlang-0.1.0.1"
+libexecdir = "/Users/louisrassaby/Library/Haskell/libexec"
+sysconfdir = "/Users/louisrassaby/Library/Haskell/etc"
 
 getBinDir, getLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "harmlang_bindir") (\_ -> return bindir)
