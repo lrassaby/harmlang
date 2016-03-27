@@ -2,7 +2,7 @@ harmlang
 ========
 By Cyrus Cousins, Louis Rassaby, and Caleb Malchik
 ---
-A language for music notation, transposition, and probabalistic generation.
+A language for music notation, transposition, and probabilistic generation. Built on Haskell's quasi-quotation.
 
 To run:
 
